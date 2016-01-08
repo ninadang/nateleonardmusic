@@ -50,3 +50,12 @@ a.name {
 	font-family: 'Droid Serif', serif;
 	font-size: 18px;
 }
+
+.formfield {
+	max-width: 720px;
+	padding-bottom: 2em;
+}
+
+form {
+	max-width: 720px;
+}
