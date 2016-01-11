@@ -51,6 +51,10 @@ a.name {
 	font-size: 18px;
 }
 
+.contactcol {
+	width: 720px;
+}
+
 .formfield {
 	max-width: 720px;
 	padding-bottom: 2em;
