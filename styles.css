@@ -39,7 +39,7 @@ a.name {
 }
 
 .hero {
-	padding-bottom: 7em;
+	padding-bottom: 6em;
 }
 
 .sectionhead {
@@ -56,12 +56,24 @@ a.name {
 }
 
 .row {
-	padding-bottom: 9em;
+	padding-bottom: 8em;
 }
 
 .bio {
 	font-family: 'Droid Serif', serif;
-	font-size: 18px;
+	font-size: 16px;
+}
+
+.biocolumn {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bioimg {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
 }
 
 .contactcol {
@@ -100,3 +112,6 @@ form {
 	padding: 10px;
 }
 
+.thumbnail {
+	border: none;
+}

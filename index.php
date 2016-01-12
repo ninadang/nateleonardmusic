@@ -59,54 +59,32 @@ if($_POST["submit"]) {
 	<div class="row bandcamp">
 		<div class="sectionhead text-center">
 			<h2>MUSIC</h2>
+			<p class="medialink"><a href="http://nateleonard.bandcamp.com/" target="_blank">Bandcamp</a> | <a href="https://soundcloud.com/nate-leonard-918986557" target="_blank">SoundCloud</a></p>
 		</div> 
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3925410816/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nateleonard.bandcamp.com/track/a-brand-new-life-demo">A Brand New Life (Demo) by Nate Leonard</a></iframe>
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=832257787/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nateleonard.bandcamp.com/track/baby-its-cold-outside">Baby, It&#39;s Cold Outside by Nate Leonard</a></iframe>
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2243451340/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nateleonard.bandcamp.com/track/silent-night">Silent Night by Nate Leonard</a></iframe>
 	</div>
 	<hr>
-	<!--
-	<div class="row">
-		<div class="medium-4 columns">
-		<h3>Photoshop</h3>
-		<p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
-		</div>
-		<div class="medium-4 columns">
-		<h3>Javascript</h3>
-		<p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
-		</div>
-		<div class="medium-4 columns">
-		<h3>Marketing</h3>
-		<p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
-		</div>
-	</div>
-	-->
+
 	<div class="row videos column">
 		<div class="sectionhead text-center">
 			<h2>VIDEOS</h2>
+				<p class="medialink"><a href="https://www.youtube.com/channel/UCGrI9qoFSCKcyMGw0ZyIwMw" target="_blank">YouTube</a></p>
 		</div>
 		<div class="row medium-up-2 large-up-2">
 		<div class="column">
 			<div class="flex-video">
-				<p>Holy Shit - Father John Misty</p>
 	        	<iframe src="https://www.youtube.com/embed/wu7yt_Zt0Zw?showinfo=0" width="300" frameborder="0" allowfullscreen></iframe>
 			</div>
+			<p class="videocap">Holy Shit - Father John Misty Cover</p>
 		</div>
 		<div class="column">
 			<div class="flex-video">
 	        	<iframe src="https://www.youtube.com/embed/0mAJBGONCYI?showinfo=0" width="300" frameborder="0" allowfullscreen></iframe>
 			</div>
+			<p class="videocap">Baby It's Cold Outside - Nate &amp; Kate</p>
 		</div>
-	<!--
-	<div class="column">
-	<img class="thumbnail" src="http://placehold.it/550x550">
-	</div>
-	<div class="column">
-	<img class="thumbnail" src="http://placehold.it/550x550">
-	</div>
-	<div class="column">
-	<img class="thumbnail" src="http://placehold.it/550x550">
-	</div>-->
 
 	</div>
 
@@ -117,10 +95,10 @@ if($_POST["submit"]) {
 			<h2>BIO</h2>
 		</div> 
 		
-		<div class="bio column">
-			<p>Nate Leonard is a singer-songwriter, guitarist, podcaster, and writer, based out of Austin, TX.</p>
-			<p>After picking up the guitar at age 11, Nate quickly realized he had found his life's calling. As a teenager, he honed his craft as a guitarist and singer-songwriter and later went on to attend the prestigious Berklee College of Music in Boston, MA. After leaving Berklee, Nate moved to Austin, TX to pursue his career in music. Citing a wide array of influences, Nate writes his music to connect with people, and share his story with his audience.</p>
-			<p>In addition to being a singer-songwriter, Nate is the host of the 'Nate Leonard Podcast', where each week he discusses everything from creativity, to productivity, to the meaning of life, with incredible thinkers, artists, and creators. The 'Nate Leonard Podcast' is available on iTunes, Stitcher, SoundCloud, And Youtube. </p>
+		<div class="biocolumn">
+			<p class="biop">Nate Leonard is a singer-songwriter, guitarist, podcaster, and writer, based out of Austin, TX.</p>
+			<p class="biop">After picking up the guitar at age 11, Nate quickly realized he had found his life's calling. As a teenager, he honed his craft as a guitarist and singer-songwriter and later went on to attend the prestigious Berklee College of Music in Boston, MA. After leaving Berklee, Nate moved to Austin, TX to pursue his career in music. Citing a wide array of influences, Nate writes his music to connect with people, and share his story with his audience.</p>
+			<p class="biop">In addition to being a singer-songwriter, Nate is the host of the 'Nate Leonard Podcast', where each week he discusses everything from creativity, to productivity, to the meaning of life, with incredible thinkers, artists, and creators. The 'Nate Leonard Podcast' is available on iTunes, Stitcher, SoundCloud, And Youtube. </p>
 		</div>
 	</div>
 
@@ -158,7 +136,7 @@ if($_POST["submit"]) {
 				</div>
 				</div>
 
-				<input type="submit" name="submit">
+				<input class="sendbutton" type="submit" name="submit" value="Send message">
 				</form>
 
 			 <?=$thankYou ?> 
@@ -166,17 +144,6 @@ if($_POST["submit"]) {
 			</div>
 		</div>
 
-
-	<!--
-	<div class="row column">
-		<ul class="menu">
-		<li><a href="#">One</a></li>
-		<li><a href="#">Two</a></li>
-		<li><a href="#">Three</a></li>
-		<li><a href="#">Four</a></li>
-		</ul>
-	</div>
--->
 </div> <!--end web content-->
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
