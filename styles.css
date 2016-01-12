@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Old+Standard+TT|Droid+Serif|Josefin+Sans|Oswald:400,300);
 
+body {
+	font-family: 'Droid Serif', serif;
+}
 
 .top-bar, .title-bar {
 	background-color: rgba(255, 255, 255, 0.5);
@@ -15,8 +18,13 @@
 	background-color: rgba(255, 255, 255, 0);
 }
 
-.menu {
+.menu a{
 	font-size: 14px;
+	color: #fff;
+}
+
+.menu a:hover{
+	color: #000;
 }
 
 li a {
@@ -27,6 +35,7 @@ li a {
 a.name {
 	font-size: 18px;
 	letter-spacing: 2px;
+	color: #000;
 }
 
 .hero {
@@ -69,3 +78,25 @@ a.name {
 form {
 	max-width: 720px;
 }
+
+.message {
+	height: 150px;
+}
+
+.videocap {
+	text-align: center;
+}
+
+.medialink {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Droid Serif', sans-serif;
+}
+
+.sendbutton {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	padding: 10px;
+}
+

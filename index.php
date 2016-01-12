@@ -59,32 +59,54 @@ if($_POST["submit"]) {
 	<div class="row bandcamp">
 		<div class="sectionhead text-center">
 			<h2>MUSIC</h2>
-			<p class="medialink"><a href="http://nateleonard.bandcamp.com/" target="_blank">Bandcamp</a> | <a href="https://soundcloud.com/nate-leonard-918986557" target="_blank">SoundCloud</a></p>
 		</div> 
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=3925410816/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nateleonard.bandcamp.com/track/a-brand-new-life-demo">A Brand New Life (Demo) by Nate Leonard</a></iframe>
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=832257787/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nateleonard.bandcamp.com/track/baby-its-cold-outside">Baby, It&#39;s Cold Outside by Nate Leonard</a></iframe>
 		<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=2243451340/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://nateleonard.bandcamp.com/track/silent-night">Silent Night by Nate Leonard</a></iframe>
 	</div>
 	<hr>
-
+	<!--
+	<div class="row">
+		<div class="medium-4 columns">
+		<h3>Photoshop</h3>
+		<p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
+		</div>
+		<div class="medium-4 columns">
+		<h3>Javascript</h3>
+		<p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
+		</div>
+		<div class="medium-4 columns">
+		<h3>Marketing</h3>
+		<p>Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
+		</div>
+	</div>
+	-->
 	<div class="row videos column">
 		<div class="sectionhead text-center">
 			<h2>VIDEOS</h2>
-				<p class="medialink"><a href="https://www.youtube.com/channel/UCGrI9qoFSCKcyMGw0ZyIwMw" target="_blank">YouTube</a></p>
 		</div>
 		<div class="row medium-up-2 large-up-2">
 		<div class="column">
 			<div class="flex-video">
+				<p>Holy Shit - Father John Misty</p>
 	        	<iframe src="https://www.youtube.com/embed/wu7yt_Zt0Zw?showinfo=0" width="300" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<p class="videocap">Holy Shit - Father John Misty Cover</p>
 		</div>
 		<div class="column">
 			<div class="flex-video">
 	        	<iframe src="https://www.youtube.com/embed/0mAJBGONCYI?showinfo=0" width="300" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<p class="videocap">Baby It's Cold Outside</p>
 		</div>
+	<!--
+	<div class="column">
+	<img class="thumbnail" src="http://placehold.it/550x550">
+	</div>
+	<div class="column">
+	<img class="thumbnail" src="http://placehold.it/550x550">
+	</div>
+	<div class="column">
+	<img class="thumbnail" src="http://placehold.it/550x550">
+	</div>-->
 
 	</div>
 
@@ -136,7 +158,7 @@ if($_POST["submit"]) {
 				</div>
 				</div>
 
-				<input class="sendbutton" type="submit" name="submit" value="Send message">
+				<input type="submit" name="submit">
 				</form>
 
 			 <?=$thankYou ?> 
