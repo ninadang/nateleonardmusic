@@ -5,7 +5,7 @@ body {
 }
 
 .top-bar, .title-bar {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(0, 0, 0, 0.6);
 	position: absolute;
 	width: 100%;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 .top-bar ul{
-	background-color: rgba(255, 255, 255, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .menu a{
@@ -24,7 +24,7 @@ body {
 }
 
 .menu a:hover{
-	color: #000;
+	color: #fff;
 }
 
 li a {
@@ -33,9 +33,9 @@ li a {
 }
 
 a.name {
-	font-size: 18px;
+	font-size: 16px;
 	letter-spacing: 2px;
-	color: #000;
+	color: #fff;
 }
 
 .hero {
@@ -45,6 +45,7 @@ a.name {
 .sectionhead {
 	padding-bottom: 2em;
 	padding-top: 2em;
+	margin-top: 20px;
 }
 
 .sectionhead h2 {
@@ -115,3 +116,28 @@ form {
 .thumbnail {
 	border: none;
 }
+
+.podcastvid {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.videocol {
+	width: 40%;
+}
+
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.socialicon {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
